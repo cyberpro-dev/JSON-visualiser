@@ -31,6 +31,7 @@ The application is modularized for clarity and performance:
 | **`system.js`** | **Tree Logic:** Recursively converts JSON into a node object (key, value, type, depth, path). |
 | **`script.js`** | **UI & Rendering:** Manages DOM events, recursive node generation, and visual mode switching. |
 | **`search_helper.js`** | **Search Logic:** Traverses the tree to find matches and returns path arrays to auto-expand branches. |
+| **`system.js`** | **Search Logic:** Handles some internal logic such as JSON parsing. |
 
 ---
 
