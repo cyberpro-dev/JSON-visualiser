@@ -70,7 +70,7 @@ This project is licensed under **AGPLv3**.
 
 ### Latest Release
 Download the latest stable version here:
-👉 **[Latest Release - JSON Visualiser](https://github.com/cyberpro-dev/JSON-visualiser/)**
+👉 **[Latest Release - JSON Visualiser](https://github.com/cyberpro-dev/JSON-visualiser/releases/latest)**
 
 ### Local Setup
 1.  Clone the repository.
