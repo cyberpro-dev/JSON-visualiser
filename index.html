@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Visualiser</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Visualise API Response</h1>
+
+    <div class="search-container">
+      <input id="search" placeholder="Search…" />
+      <div class="search-mode">
+        <span id="searchModeLabel">Mode ▾</span>
+        <div id="searchDropdown" class="dropdown">
+          <div data-mode="entry">Entry</div>
+          <div data-mode="entryValue">Entry + Value</div>
+          <div data-mode="value">Value</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modes">
+      <button data-mode="raw">Raw</button>
+      <button data-mode="visual" class="active">Visual</button>
+      <button data-mode="visualValue">Visual + Value</button>
+      <button data-mode="types">Visual + Types</button>
+    </div>
+
+    <div id="depthInfo"></div>
+  </header>
+
+  <main>
+    <textarea id="input" placeholder="Paste JSON here…"></textarea>
+    <pre id="rawView"></pre>
+    <div id="treeView"></div>
+  </main>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
